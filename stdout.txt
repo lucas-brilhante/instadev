@@ -1,0 +1,22 @@
+
+> instadev@0.1.0 submit C:\Users\Lucas\codenation\react-15
+> react-scripts test src/__tests__/submit.test.js --reporters=default --reporters=jest-junit "--watchAll=false"
+
+  console.error node_modules/react-dom/cjs/react-dom.development.js:88
+    Warning: Expected `onClick` listener to be a function, instead got a value of `object` type.
+        in button (at Story.jsx:33)
+        in header (at Story.jsx:24)
+        in div (at Story.jsx:23)
+        in section (at Story.jsx:22)
+        in Story (at submit.test.js:69)
+        in Router (at submit.test.js:68)
+
+  console.error node_modules/react-dom/cjs/react-dom.development.js:88
+    Warning: Expected `onEnded` listener to be a function, instead got a value of `object` type.
+        in video (at Story.jsx:43)
+        in section (at Story.jsx:42)
+        in div (at Story.jsx:41)
+        in section (at Story.jsx:22)
+        in Story (at submit.test.js:69)
+        in Router (at submit.test.js:68)
+
